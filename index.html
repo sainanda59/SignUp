@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="static/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Login Page</title>
+</head>
+
+<body>
+ 
+  <div class="container flex">
+    
+    <div class="img1"> <img class="logo" src="static/logo.png" alt="3D-Image">
+    </div>
+
+    <div class="login">
+      <h1 class="title">SIGN-UP FORM</h1>
+      <form class="form" method="get">
+        <div class="flex1">
+          <input type="text" name="NAME" id="name" placeholder="Name" required>
+         
+          <input type="email" name="EMAIL" id="email" placeholder="Email" required>
+         
+          <input type="text" name="ADDRESS" id="address" placeholder="Address" required>
+         
+          <input type="tel" name="PHONENUMBER" id="phonum" placeholder="Mobile No." required>
+         
+        </div>
+        <div class="flex2">
+          <div>
+            <input type="radio" name="Domain" id="hardware">
+            <label for="hardware">Hardware</label>
+          </div>
+         
+          <div>
+            <input type="radio" name="Domain" id="software" checked>
+          <label for="software">Software</label>
+          </div>
+          
+        <div>
+          <input type="radio" name="Domain" id="design">
+          <label for="design">Design</label>
+         
+        </div>
+          
+          <select name="skills" id="skills" required>
+            <option value="">---Skills---</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+          </select>
+        </div>
+       
+        <div class="flex1">
+          <input type="password" name="password" id="password" placeholder="Password" required>
+         
+          <input type="password" name="confirm-password" id="confirmpassword" placeholder="Confirm Password" required>
+         
+          <input type="submit" name="submit" id="submitbtn">
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

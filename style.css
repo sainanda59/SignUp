@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex2{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container{
+    background-image:linear-gradient(to left, darkorange, orange);
+    background-size:cover;
+    background-repeat:repeat;
+    background-repeat: repeat-x;
+    height: 40rem;
+    width: 100vw;
+    position: relative;
+}
+
+.img1{
+    height: 75%;
+    width: 60vw;
+    position: relative;
+}
+
+
+.logo{
+    height: 100%;
+    width: 80%;
+    margin-top: 80px;
+
+}
+
+.login{
+    height: auto;
+    width: 50vw;
+    position: relative;
+    background-color: rgb(241, 0, 60);
+    border: 4px solid black;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+
+}
+
+ .flex1 input{
+    border-radius: 5px;
+    width: 40vw;
+    height: 30px;
+    padding: auto 5px;
+    margin: 15px 15px 10px 15px;
+    border: 3px solid white;
+    padding-left: 5px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.form{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.flex1 input:hover{
+    background-color:black;
+    color: white;
+    border: 4px solid rgb(94, 255, 0);
+}
+
+
+#submitbtn{
+    background-color:black ;
+    color: azure;
+}
+
+#submitbtn:hover{
+    background-color:black;
+    color:rgb(255, 94, 0);
+    border: 4px solid rgb(0, 255, 64);
+}
+
+.title{
+    font-size: 250%;
+    text-align: center;
+    padding-top: 10px;
+    word-wrap: break-word;
+}
+
+.title:hover{
+    color: rgb(0, 255, 64);
+}
+
+
+label{
+    font-size: 25px;
+}
